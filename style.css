@@ -1,0 +1,177 @@
+@media only screen and (min-width: 769px) {
+
+    .navbar .navbar-toggler {
+        display: none; 
+    }
+    .navbar-brand {
+        max-width: 30%;
+    }
+    
+    
+       
+    .calendar {
+        margin-left:50px;
+    }
+    .navbar-logo {
+        max-width: 50%;
+        height: auto;
+    }
+    
+    .google-map {
+        padding-left:50px;
+    }
+     
+       
+    
+}
+
+@media (max-width: 768px) {
+    .navbar-logo {
+      max-width: 25%;
+      height: auto;
+    }
+    
+  }
+
+
+.jumbotron {
+    text-align: center;
+    color: aliceblue;
+    margin:0;
+    padding:0;    
+    background-image:url("img/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products.jpg");
+    display: grid;
+    
+    
+}
+
+
+header {
+    margin-bottom: 30px;
+}
+
+
+.weekday {
+    width:100%;
+    list-style-type:none;
+}
+
+body {
+    background-image: url("img/abstract-luxury-gold-yellow-gradient-studio-wall-well-use-as-background-layout-banner-product-presentation.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:aliceblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, .formulaire h4, .nav-item a, figcaption, .menu h4{
+    font-family: 'Merienda', cursive;   
+
+}
+
+.formulaire {
+    max-width: 800px;
+    background-image: url("img/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;   
+    
+}
+
+
+.indexAds .card {
+    background-image: url('img/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 0; 
+    box-shadow: none;
+    color:aliceblue;        
+}
+
+
+.menu .list-group{
+    border: none;
+    border-radius: 0;
+      
+}
+.menu .list-group-item{
+    background-color: rgba(0, 0, 0, 0.2);
+    color:aliceblue;
+    
+}
+
+.menu {
+    background-image:url("img/ahtziri-lagarde-4RRMdekxYuI-unsplash2140x3210.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+.menu h4, .contacts h4{
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 15px 0px;
+
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.page-item, figcaption {
+    text-align: center;
+}
+
+.galleryPic, .contacts, footer{
+    background-image: url("img/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.pagination a{
+    background-image: url("img/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products.jpg");
+    color:aliceblue;
+}
+.page-item.active .page-link {
+    border-color:  rgba(218,123,14,1);
+    
+}
+
+
+footer {
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    height: auto;        
+  }
+footer p{
+    text-align: center;
+    font-size: 0.8em;
+    
+    
+}
+footer a, footer.a.href {
+    text-decoration: none;
+}
+.fa {
+    
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    transform:scale(2);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.nav-link {
+    padding:0;
+}
